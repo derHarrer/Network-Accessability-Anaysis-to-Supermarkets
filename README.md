@@ -6,15 +6,16 @@ You ever wondered how far each citizen in your city has to walk to the nearest s
 
 The main script is accessible in the notebook: 
 
+<br>
 
 # Research Question
 
 1. How far is the walking distance of every residential building in town to the nearest supermarket?
 2. What district has on average the closest distance to the supermarkets? 
 
+<br>
 
 # Tools and Packages
-
 - Python
 - Pyrosm
 - NetworkX
@@ -24,13 +25,12 @@ The main script is accessible in the notebook:
 - Matplotlib
 - NumPy
 - pathlib
-- itertools 
+- itertools
 
+<br>
 
 # Data
 Data was extracted from OpenStreetMap with Pyrosm. In order to retrieve solely on residential buildings, a combination of tags were utilized during the process of download. 
-
-<br>
 
 **Transparancy disclaimer**
 
@@ -47,10 +47,13 @@ Data was extracted from OpenStreetMap with Pyrosm. In order to retrieve solely o
 4. Retrieve residential buildings and supermarkets by the boundary of Duisburg.
 5. Transform geometry of buildings and supermarkets to points with `.geometry.representative_point()` and snap each to the nearest node available.
 6. Calculate shortest weighted path length with NetworkX `multi_source_dijkstra_path_length()`
-7. Categories the results for better interpretation and `plot()` them.  
+7. Categories the results for better interpretation and `plot()` them.
 
-## Results
-How far is the walking distance of every residential building in town to the nearest supermarket?
+<br>
+
+
+# Results
+**How far is the walking distance of every residential building in town to the nearest supermarket?**
 
 | Distance to Supermarket | Number of Buildings | Share of Percent (%) |
 | :---------------------- | ------------------:| --------: |
@@ -60,7 +63,36 @@ How far is the walking distance of every residential building in town to the nea
 | 1500+ m        | 3082      | 7.3        |
 | **Total**      | **41948**     | **100**        |
 
+<br>
 
+**What district has on average the closest distance to the supermarkets?**
+
+
+
+| Districts of Duisburg| Mean Distance (m) to Supermarket |
+| :--------------------| --------------------------------:|
+| Duisburg-Mitte       | 494                              |
+| Meiderich/Beeck      | 578                              |
+| Hamborn              | 747                              |
+| Homberg/Ruhrort/Baerl| 771                              |
+| Rheinhausen          | 829                              |
+| Duisburg-Süd         | 918                              |
+
+
+
+
+## Visual Results
+
+<br>
+
+## Walking Network Accessibility Analysis of each residential Building to Supermarkets
+![duisburg_buildings_and_supermarkets1000_nearest_distance.png](jb-image:img_1794144414561_3e6a5b4d70f068)
+
+<br>
+
+## Average Dinstance in Meter of each District in Duisburg
+
+![duisburg_buildings_and_supermarkets1000_nearest_distance_cityDistricts.png](jb-image:img_1794149533263_2022ccfa21c418)
 
 ## Author
 
