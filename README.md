@@ -1,14 +1,5 @@
 # Walking Accessability Anaysis from Buildings to Supermarkets (Open-Street-Maps)
 
-
-
-Here in this project Open-Street-Map-Data was used to extract every residential buildings and supermarkets of the city Duisburg. Furthermore pedestrian network was used to calculate the nearest path from each supermarket to every existing residential building. 
-
-## 
-This presentation provides the code for Network Accessability Analysis of walking distance of each residential building to the nearest supermarket. The product was derived with networkx, pyrosm, osmnx, geopandas, numpy, matplotlib and itertools.
-
-
-
 # Highlights 
 
 You ever wondered how far each citizen in your city has to walk to the nearest supermarket? This project makes it possible to establish an understanding of the walking distances for every residential building existing within the corresponding city boundary to its nearest supermarket. It derives the residential buildings, supermarkets and the cities pedestrian network, cleans and manages OMS-derived datasets, links the nearest nodes of each building and supermarket and computes the shortest-path distances with the help of the walking graph. 
@@ -37,7 +28,17 @@ The main script is accessible in the notebook:
 
 
 # Data
-Data was extracted from OpenStreetMap with Pyrosm. For buildings the following tags were used: 
+Data was extracted from OpenStreetMap with Pyrosm. In order to retrieve solely on residential buildings, a combination of tags were utilized during the process of download. 
+
+<br>
+
+**Transparancy disclaimer**
+
+1. It is important highlight that these tags do not claim to cover every existing residential building, but display the biggest proportion of them.
+2. OpenStreetMap is a collaboration project maintained by a community of volunteers. Having this in mind, data can change of the course of time and with this the results as well. 
+
+<br>
+
 
 # Method
 1. Define Input and Output Directory
@@ -49,6 +50,15 @@ Data was extracted from OpenStreetMap with Pyrosm. For buildings the following t
 7. Categories the results for better interpretation and `plot()` them.  
 
 ## Results
+How far is the walking distance of every residential building in town to the nearest supermarket?
+
+| Distance to Supermarket | Number of Buildings | Share of Percent (%) |
+| :---------------------- | ------------------:| --------: |
+| 0 – 500 m      | 18295     | 43.6       |
+| 500 - 1000 m   | 16566     | 39.5       |
+| 1000 - 1500 m  | 4005      | 9.5        |
+| 1500+ m        | 3082      | 7.3        |
+| **Total**      | **41948**     | **100**        |
 
 
 
