@@ -4,7 +4,7 @@
 
 You ever wondered how far each citizen in your city has to walk to the nearest supermarket? This project makes it possible to establish an understanding of the walking distances for every residential building existing within the corresponding city boundary to its nearest supermarket. It derives the residential buildings, supermarkets and the cities pedestrian network, cleans and manages OMS-derived datasets, links the nearest nodes of each building and supermarket and computes the shortest-path distances with the help of the walking graph. 
 
-The main script is accessible in the notebook: 
+The main script is accessible in the notebook: `Spatial_Network_Analyis_Duisburg_Final.ipynb`
 
 <br>
 
