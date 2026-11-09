@@ -92,7 +92,7 @@ Data was extracted from OpenStreetMap with Pyrosm. In order to retrieve solely o
 
 ## Average Dinstance in Meter of each District in Duisburg
 
-![outputs/duisburg_buildings_and_supermarkets1000_nearest_distance.png]
+!(outputs/duisburg_buildings_and_supermarkets1000_nearest_distance.png)
 
 ## Author
 
