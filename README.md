@@ -98,8 +98,6 @@ Data was extracted from OpenStreetMap with Pyrosm. In order to retrieve solely o
 
 Master Degree in Environmental Science with the Specialization of Geoinformatics and Remote Sensing. I am a huge OSM-Enthusiast and deeply faszinated by the sheer endless possibilities that came with it. 
 
-*Information about me and why it did what i did*
-
 ## References 
 This project / workflow was developed using concepts and materials from:
 1. [Automating GIS processes](https://autogis-site.readthedocs.io/) course provided by the University of Helsinki.
