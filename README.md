@@ -86,13 +86,13 @@ Data was extracted from OpenStreetMap with Pyrosm. In order to retrieve solely o
 <br>
 
 ## Walking Network Accessibility Analysis of each residential Building to Supermarkets
-![duisburg_buildings_and_supermarkets1000_nearest_distance.png](jb-image:img_1794144414561_3e6a5b4d70f068)
+![](outputs/duisburg_buildings_and_supermarkets1000_nearest_distance.png)
 
 <br>
 
 ## Average Dinstance in Meter of each District in Duisburg
+![](outputs/duisburg_buildings_and_supermarkets1000_nearest_distance_cityDistricts.png)
 
-![](outputs/duisburg_buildings_and_supermarkets1000_nearest_distance.png)
 
 ## Author
 
@@ -101,5 +101,8 @@ Master Degree in Environmental Science with the Specialization of Geoinformatics
 *Information about me and why it did what i did*
 
 ## References 
+This project / workflow was developed using concepts and materials from:
+1. [Automating GIS processes](https://autogis-site.readthedocs.io/) course provided by the University of Helsinki.
+2. [GitHub Repository](https://github.com/omaewamoushindei/osm-network-accessibility-munich) Network accessibility munich. 
 
 
